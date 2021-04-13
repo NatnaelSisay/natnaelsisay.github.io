@@ -373,9 +373,6 @@
 		}
 	}
 
-	footer {
-	}
-
 /* Form */
 
 	form {
@@ -726,13 +723,14 @@
 		}
 
 		&.avatar {
-			border-radius: 100%;
-			overflow: hidden;
+			border-radius: 15px;
+			// overflow: hidden;
 
 			img {
-				border-radius: 100%;
+				border-radius: 15px;
 				display: block;
-				width: 100%;
+				width: 200px;
+				height: 150px
 			}
 		}
 
@@ -1826,4 +1824,24 @@
 				padding: 0;
 			}
 
+	}
+
+	.send_email_button{
+		border: none;
+		color: white;
+		padding: 1rem 2rem;
+		border-radius: 5px;
+
+		background-color: #4acaa8;
+
+		a{
+			font-weight: bold;
+			font-size: 16px;
+			text-decoration: none !important;
+			list-style: none;
+
+			&:hover{
+				color: black;
+			}
+		}
 	}
